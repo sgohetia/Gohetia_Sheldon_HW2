@@ -2,6 +2,10 @@
 
 This repo is for the Homework #2. Character Build (CSS Selection and Styles).
 
+## Character Build Title
+
+Prodigy Anime - This is about my favorite anime character and their awesome transformations.
+
 ## Installation
 
 No installation is required.
