@@ -1,2 +1,23 @@
 # Gohetia_Sheldon_HW2
-This repo is a character build using HTML and CSS for Homework #2
+
+This repo is for the Homework #2. Character Build (CSS Selection and Styles).
+
+## Installation
+
+No installation is required.
+
+## Usage
+
+Open the index file in your browser of choice.
+
+## History
+
+No history is required
+
+## Credits
+
+Sheldon Gohetia
+
+## License
+
+MIT - see license file for more information.
