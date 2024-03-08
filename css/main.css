@@ -25,7 +25,10 @@ header {
   );
   padding: 10px 0;
 }
-
+.mouse-color {
+  color: rgb(233, 2, 71);
+  font-weight: bold;
+}
 #main-logo {
   width: 300px;
   display: block;
@@ -104,14 +107,7 @@ li,
   box-shadow: 0 155px 0 rgb(235, 180, 1) inset;
   transition: box-shadow 0.2s ease;
 }
-/* .characters li {
-  height: 220px;
-  margin: 10px 8px;
-  text-align: center;
-  cursor: pointer;
-  box-shadow: 0 155px 0 rgb(255, 0, 0) inset;
-  transition: box-shadow 0.2s ease;
-} */
+
 li,
 .c_goku:hover {
   box-shadow: 0 220px 0 rgb(5, 133, 238) inset;
@@ -174,32 +170,32 @@ article p,
   background-image: url(../images/supersaiyanSprites.jpg);
 }
 
-#carol {
+#monkey {
   background-position: -150px 0;
 }
 
-#clint {
+#ken {
   background-position: -300px 0;
 }
 
-#hulk {
+#yeager {
   background-position: -450px 0;
 }
 
-#thor {
+#kurosaki {
   background-position: -600px 0;
 }
 
-#widow {
+#uzumaki {
   background-position: -750px 0;
 }
 
-#cap:hover,
-#carol:hover,
-#clint:hover,
-#hulk:hover,
-#thor:hover,
-#widow:hover {
+#son:hover,
+#monkey:hover,
+#ken:hover,
+#yeager:hover,
+#kurosaki:hover,
+#uzumaki:hover {
   background-position-y: -150px;
 }
 
