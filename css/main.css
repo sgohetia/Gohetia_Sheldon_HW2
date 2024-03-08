@@ -116,6 +116,27 @@ li,
 .c_goku:hover {
   box-shadow: 0 220px 0 rgb(5, 133, 238) inset;
 }
+
+li,
+.c_luffy:hover {
+  box-shadow: 0 220px 0 rgb(233, 2, 71) inset;
+}
+li,
+.c_kaneki:hover {
+  box-shadow: 0 220px 0 rgb(255, 0, 0) inset;
+}
+li,
+.c_eren:hover {
+  box-shadow: 0 220px 0 rgb(1, 190, 48) inset;
+}
+li,
+.c_ichigo:hover {
+  box-shadow: 0 220px 0 rgb(218, 124, 1) inset;
+}
+li,
+.c_naruto:hover {
+  box-shadow: 0 220px 0 rgb(235, 180, 1) inset;
+}
 /* .characters li:hover {
   box-shadow: 0 220px 0 rgb(255, 0, 0) inset;
 } */
@@ -196,7 +217,13 @@ footer {
   position: sticky;
   top: 100%;
   height: 80px;
-  background-color: rgb(40, 37, 37);
+  background: rgb(248, 75, 0);
+  background: radial-gradient(
+    circle,
+    rgba(248, 75, 0, 1) 0%,
+    rgba(167, 2, 22, 1) 35%,
+    rgba(192, 8, 51, 1) 100%
+  );
 }
 
 .lightbox {
@@ -206,15 +233,29 @@ footer {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.85);
-  background-image: url(../images/Cap_LB_Bg.png);
+  background-image: url(../images/supersaiyanblue.png);
   background-repeat: no-repeat;
   background-size: 55vh;
   background-position: 40px bottom;
   display: none;
 }
 
+#lightbox2 {
+  background-image: url(../images/luffy-target.png);
+}
+
+#lightbox3 {
+  background-image: url(../images/ken.png);
+}
+
+#lightbox4 {
+  background-image: url(../images/yeager.png);
+}
 #lightbox5 {
-  background-image: url(../images/Thor_LB_Bg2.png);
+  background-image: url(../images/ichigo-k.png);
+}
+#lightbox6 {
+  background-image: url(../images/UN.png);
 }
 
 .lightbox_close {
@@ -230,7 +271,77 @@ footer {
 
 .lightbox_close:hover {
   opacity: 0.5;
-  color: red;
+  color: rgb(5, 133, 238);
+}
+.lightbox_close2 {
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: all 0.5s ease-in-out;
+}
+.lightbox_close2:hover {
+  opacity: 0.5;
+  color: rgb(233, 2, 71);
+}
+.lightbox_close3 {
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: all 0.5s ease-in-out;
+}
+.lightbox_close3:hover {
+  opacity: 0.5;
+  color: rgb(255, 0, 0);
+}
+.lightbox_close4 {
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: all 0.5s ease-in-out;
+}
+.lightbox_close4:hover {
+  opacity: 0.5;
+  color: rgb(1, 190, 48);
+}
+.lightbox_close5 {
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: all 0.5s ease-in-out;
+}
+.lightbox_close5:hover {
+  opacity: 0.5;
+  color: rgb(218, 124, 1);
+}
+.lightbox_close6 {
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: all 0.5s ease-in-out;
+}
+.lightbox_close6:hover {
+  opacity: 0.5;
+  color: rgb(235, 180, 1);
 }
 
 .lightbox article {
