@@ -29,11 +29,12 @@ header {
   color: rgb(233, 2, 71);
   font-weight: bold;
 }
+
 #main-logo {
   width: 300px;
   display: block;
   margin: 0 auto;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 8px 4px 6px rgba(0, 0, 0, 0.3);
 }
 #character_nav {
   background-color: #675050;
@@ -140,6 +141,85 @@ li,
 .characters li h3 {
   color: white;
   padding: 12px 8px;
+}
+#Gwrapper {
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+}
+#Gfirst,
+#Gsecond {
+  width: 150px;
+  height: 100px;
+}
+#Gfirst:hover {
+  margin-top: -60px;
+}
+
+#Lwrapper {
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+}
+#Lfirst,
+#Lsecond {
+  width: 150px;
+  height: 100px;
+}
+#Lfirst:hover {
+  margin-top: -60px;
+}
+#Kwrapper {
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+}
+#Kfirst,
+#Ksecond {
+  width: 150px;
+  height: 100px;
+}
+#Kfirst:hover {
+  margin-top: -60px;
+}
+#ewrapper {
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+}
+#efirst,
+#esecond {
+  width: 150px;
+  height: 100px;
+}
+#efirst:hover {
+  margin-top: -60px;
+}
+#iwrapper {
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+}
+#ifirst,
+#isecond {
+  width: 150px;
+  height: 100px;
+}
+#ifirst:hover {
+  margin-top: -60px;
+}
+#nwrapper {
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+}
+#nfirst,
+#nsecond {
+  width: 150px;
+  height: 100px;
+}
+#nfirst:hover {
+  margin-top: -60px;
 }
 
 .characters li a {
