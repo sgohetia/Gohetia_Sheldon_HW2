@@ -29,6 +29,10 @@ header {
   color: rgb(233, 2, 71);
   font-weight: bold;
 }
+.mouse-color2 {
+  color: rgb(245, 201, 4);
+  font-weight: bold;
+}
 
 #main-logo {
   width: 300px;
@@ -42,6 +46,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
+  border-bottom: 8px solid rgb(248, 165, 71);
 }
 
 .characters {
